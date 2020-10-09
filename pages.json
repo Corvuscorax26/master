@@ -1,0 +1,777 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/tabbar-1/tabbar-1",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "万物志宠医",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-2/tabbar-2",
+			"style": {
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏
+					// 将回弹属性关掉
+					"bounce": "none"
+				}
+			}
+		},
+		// {
+		// 	"path": "pages/tabbar/tabbar-3/tabbar-3",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/tabbar/tabbar-4/tabbar-4",
+		// 	"style": {}
+		// },
+		{
+			"path": "pages/tabbar/tabbar-3/tabbar-3",
+			"style": {
+				"navigationBarBackgroundColor": "#FE9C5D",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false,
+				"navigationStyle": "custom"
+			},
+			"app-plus": {
+				"titleNView": false, //禁用原生导航栏
+				// 将回弹属性关掉
+				"bounce": "none"
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "设置",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/setting/accountSettings",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "账号设置",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/setting/accountBinding",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "账号绑定",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/setting/changePassword",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "修改密码",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/login/codeLogin",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/login/setPassword",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/login/binding",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/login/retrievePassword",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myInquiry/myInquiry",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的问诊",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			},
+			"app-plus": {
+				"titleNView": false, //禁用原生导航栏
+				// 将回弹属性关掉
+				"bounce": "none"
+			}
+		},
+		{
+			"path": "pages/myDoctor/myDoctor",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的医生",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			},
+			"app-plus": {
+				"titleNView": false, //禁用原生导航栏
+				// 将回弹属性关掉
+				"bounce": "none"
+			}
+		},
+		{
+			"path": "pages/discountCoupon/discountCoupon",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的优惠券",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myPet/myPet",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的宠物",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myPetDetail/myPetDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的宠物",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myPosts/myPosts",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的帖子",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myCollect/myCollect",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的收藏",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/messageList/messageList",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "消息",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/visitDetail/visitDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "复诊详情",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/recordSession/recordSession",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "会话记录",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/recharge/recharge",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "充值",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/personalInformation/personalInformation",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "个人信息",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/messageDetail/praise",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "点赞",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/messageDetail/comment",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "评论",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/messageDetail/collect",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "收藏",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/messageDetail/transpond",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "转发",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/messageDetail/systemMessage",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "系统",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/releaseNew/newCommunity",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "发布帖子",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/tasteTest/tasteTest",
+			"style": {
+				"navigationBarBackgroundColor": "#132455",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/tasteTest/tasteDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#132455",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "性格测试",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/releaseNew/newAdopt",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "发布领养信息",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/releaseNew/newLost",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "发布寻宠信息",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/releaseNew/newLog",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "发布日志",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/adoptDetail/adoptDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false,
+				"navigationStyle": "custom"
+			},
+			"app-plus": {
+				"titleNView": false //禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/lostDetail/lostDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false,
+				"navigationStyle": "custom"
+			},
+			"app-plus": {
+				"titleNView": false //禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/petHealthDetail/petHealthDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#FFDA6E",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "宠物健康数据",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/inquiryDetail/inquiryDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "问诊详情",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myVisit/myVisit",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的复诊",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myReport/myReport",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的报告",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/scienceVideo/scienceVideo",
+			"style": {
+				"navigationBarBackgroundColor": "#FE9C5D",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false,
+				"navigationStyle": "custom"
+			},
+			"app-plus": {
+				"titleNView": false //禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/communityVideo/communityVideo",
+			"style": {
+				"navigationBarBackgroundColor": "#FE9C5D",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false,
+				"navigationStyle": "custom"
+			},
+			"app-plus": {
+				"titleNView": false //禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/communityDetail/communityDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#FE9C5D",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false,
+				"navigationStyle": "custom"
+			},
+			"app-plus": {
+				"titleNView": false //禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/communityList/communityList",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "社区",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/recoveryLogDetail/recoveryLogDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "康复日志",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/recruitmentDetail/recruitmentDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "志愿者招聘",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/addPet/addPet",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "添加宠物",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/rapidInterrogation/rapidInterrogation",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "快速问诊",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/memberCenter/memberCenter",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "会员中心",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarBackgroundColor": "#FFE06E",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "签到",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			},
+			"app-plus": {
+				"titleNView": false //禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/lottery/lottery",
+			"style": {
+				"navigationBarBackgroundColor": "#d2f5c7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			},
+			"app-plus": {
+				"titleNView": false //禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/myIntegral/myIntegral",
+			"style": {
+				"navigationBarBackgroundColor": "#FFDA6E",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的积分",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/mealAllowance/mealAllowance",
+			"style": {
+				"navigationBarBackgroundColor": "#FFDA6E",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "套餐余量",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/balanceEnquiry/balanceEnquiry",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的余额",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/integralRule/integralRule",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/memberRule/memberRule",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/petDoctorDetail/petDoctorDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/memberBenefits/memberBenefits",
+			"style": {
+				"navigationBarBackgroundColor": "#FFDA6E",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/special/special",
+			"style": {
+				"navigationBarBackgroundColor": "#6D6BF4",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/newProductTrial/newProductTrial",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "新品试用",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"color": "#8F8F94",
+		"selectedColor": "#FFC700",
+		"list": [{
+				"pagePath": "pages/tabbar/tabbar-1/tabbar-1",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/home_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+				"iconPath": "static/img/tabbar/shequ.png",
+				"selectedIconPath": "static/img/tabbar/shequ_active.png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+				"iconPath": "static/img/tabbar/mine.png",
+				"selectedIconPath": "static/img/tabbar/mine_active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "/pages/tabbar/tabbar-1/tabbar-1", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

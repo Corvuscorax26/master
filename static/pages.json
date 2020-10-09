@@ -1,0 +1,390 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/tabbar-1/tabbar-1",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "万物志宠医",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-2/tabbar-2",
+			"style": {
+				"app-plus": {
+					"titleNView": false ,//禁用原生导航栏
+					// 将回弹属性关掉
+					"bounce": "none"
+				}
+			}
+		},
+		// {
+		// 	"path": "pages/tabbar/tabbar-3/tabbar-3",
+		// 	"style": {}
+		// },
+		// {
+		// 	"path": "pages/tabbar/tabbar-4/tabbar-4",
+		// 	"style": {}
+		// },
+		{
+			"path": "pages/tabbar/tabbar-3/tabbar-3",
+			"style": {
+				"navigationBarBackgroundColor": "#FE9C5D",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false,
+				"navigationStyle": "custom"
+			},
+			"app-plus": {
+				"titleNView": false ,//禁用原生导航栏
+				// 将回弹属性关掉
+				"bounce": "none"
+			}
+		},
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarBackgroundColor": "#F6FAFD",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "设置",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": true
+			},
+			"app-plus": {
+				"titleNView": false ,//禁用原生导航栏
+				// 将回弹属性关掉
+				"bounce": "none"
+			}
+		},
+		{
+			"path": "pages/myInquiry/myInquiry",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的问诊",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			},
+			"app-plus": {
+				"titleNView": false ,//禁用原生导航栏
+				// 将回弹属性关掉
+				"bounce": "none"
+			}
+		},
+		{
+			"path": "pages/myDoctor/myDoctor",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的医生",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			},
+			"app-plus": {
+				"titleNView": false ,//禁用原生导航栏
+				// 将回弹属性关掉
+				"bounce": "none"
+			}
+		},
+		{
+			"path": "pages/discountCoupon/discountCoupon",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的优惠券",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myPet/myPet",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的宠物",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myPetDetail/myPetDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的宠物",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/petHealthDetail/petHealthDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#FFDA6E",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "宠物健康数据",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/inquiryDetail/inquiryDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "问诊详情",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myVisit/myVisit",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的复诊",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myReport/myReport",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的报告",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/scienceVideo/scienceVideo",
+			"style": {
+				"navigationBarBackgroundColor": "#FE9C5D",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false,
+				"navigationStyle": "custom"
+			},
+			"app-plus": {
+				"titleNView": false //禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/communityVideo/communityVideo",
+			"style": {
+				"navigationBarBackgroundColor": "#FE9C5D",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false,
+				"navigationStyle": "custom"
+			},
+			"app-plus": {
+				"titleNView": false //禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/communityDetail/communityDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#FE9C5D",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false,
+				"navigationStyle": "custom"
+			},
+			"app-plus": {
+				"titleNView": false //禁用原生导航栏
+			}
+		},
+		{
+			"path": "pages/communityList/communityList",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "社区",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/recoveryLogDetail/recoveryLogDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "康复日志",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/recruitmentDetail/recruitmentDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "志愿者招聘",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/addPet/addPet",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "添加宠物",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/rapidInterrogation/rapidInterrogation",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "快速问诊",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/memberCenter/memberCenter",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "会员中心",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarBackgroundColor": "rgba(255,255,255,0)",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "签到",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/myIntegral/myIntegral",
+			"style": {
+				"navigationBarBackgroundColor": "#FFDA6E",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的积分",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/balanceEnquiry/balanceEnquiry",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "我的余额",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/integralRule/integralRule",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/memberRule/memberRule",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/petDoctorDetail/petDoctorDetail",
+			"style": {
+				"navigationBarBackgroundColor": "#F3F2F7",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": " ",
+				"onReachBottomDistance": 50,
+				"backgroundColor": "#F9F9F9",
+				"disableScroll": false
+			}
+		},
+		{
+			"path": "pages/123",
+			"style": {
+				"navigationBarTitleText": "echarts-renderjs"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"color": "#8F8F94",
+		"selectedColor": "#FFC700",
+		"list": [{
+				"pagePath": "pages/tabbar/tabbar-1/tabbar-1",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/home_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+				"iconPath": "static/img/tabbar/shequ.png",
+				"selectedIconPath": "static/img/tabbar/shequ_active.png",
+				"text": "社区"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+				"iconPath": "static/img/tabbar/mine.png",
+				"selectedIconPath": "static/img/tabbar/mine_active.png",
+				"text": "我的"
+			}
+		]
+	}
+}
